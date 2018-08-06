@@ -1,6 +1,6 @@
 {
   "name": "koa-session2-redis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fork from koa-session2; Middleware for Koa2 to get/set session use with custom stores such as Redis or mongodb",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,6 @@
   },
   "engines": {
     "node": ">=7.6.0"
-  },
+  }
  
 }

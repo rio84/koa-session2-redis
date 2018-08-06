@@ -42,10 +42,4 @@ class RedisStore extends Store {
     }
 }
 
-
-module.exports= session({
-    key: "SSSSSSSID",
-    store: new RedisStore(),
-    maxAge:15*24*3600*1000,
-    domain:'*'
-})
+module.exports=RedisStore;
