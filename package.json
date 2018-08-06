@@ -1,0 +1,42 @@
+{
+  "name": "koa-session2-redis",
+  "version": "0.0.1",
+  "description": "Fork from koa-session2; Middleware for Koa2 to get/set session use with custom stores such as Redis or mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rio84/koa-session2-redis.git"
+  },
+  "files":[
+    "index.js",
+    "libs"
+  ],
+  "keywords": [
+    "koa2",
+    "koa",
+    "session",
+    "redis",
+    "store",
+    "middleware"
+  ],
+  "dependencies":{
+    "ioredis":"3.2.2"
+  },
+  "devDependencies": {
+    "koa": "^2.0.1",
+    "koa-router": "^7.0.1",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  },
+  "peerDependencies": {
+    "koa": ">=2.0.1"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+ 
+}
